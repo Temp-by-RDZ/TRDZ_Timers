@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/timer_height"
+        android:layout_margin="@dimen/margin_normal"
+        android:backgroundTint="@color/background"
+        app:cardCornerRadius="@dimen/timer_corner_radius">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/timer_inner_space"
+            android:backgroundTint="@color/background_100"
+            app:strokeWidth="@dimen/timer_inner_border">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/timer_numb_space"
+                android:background="@color/black"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin_normal">
+
+                <TextView
+                    android:id="@+id/screen_min"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.20"
+                    android:gravity="center"
+                    android:text="@string/_00"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/timer_numb_size" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.075"
+                    android:gravity="center"
+                    android:text="@string/timer_space"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/timer_simb_size" />
+
+                <TextView
+                    android:id="@+id/screen_sec"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.20"
+                    android:gravity="center"
+                    android:text="@string/_00"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/timer_numb_size"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.075"
+                    android:gravity="center"
+                    android:text="@string/timer_space"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/timer_simb_size" />
+
+                <TextView
+                    android:id="@+id/screen_mls"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:gravity="center"
+                    android:text="@string/_000"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/timer_numb_size"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

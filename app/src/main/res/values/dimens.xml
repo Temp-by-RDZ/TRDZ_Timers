@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="t_basis">20sp</dimen>
+    <dimen name="t_head_size">30sp</dimen>
+    <dimen name="margin_micro">5dp</dimen>
+    <dimen name="margin_normal">10dp</dimen>
+    <dimen name="margin_big">20dp</dimen>
+    <dimen name="margin_large">40dp</dimen>
+    <dimen name="margin_giant">60dp</dimen>
+    <dimen name="margin_colosal">150dp</dimen>
+    <dimen name="head_skip">35dp</dimen>
+    <dimen name="text_height">25dp</dimen>
+    <dimen name="text_margin">10dp</dimen>
+    <dimen name="timer_corner_radius">10dp</dimen>
+    <dimen name="timer_height">200dp</dimen>
+    <dimen name="timer_inner_space">10dp</dimen>
+    <dimen name="timer_inner_border">5dp</dimen>
+    <dimen name="timer_numb_space">5dp</dimen>
+    <dimen name="timer_numb_size">60sp</dimen>
+    <dimen name="timer_simb_size">50sp</dimen>
+    <dimen name="centr_text">30sp</dimen>
+    <dimen name="centr_numb_size">60sp</dimen>
+    <!-- colors -->
+    <color name="primary">#785447</color>
+    <color name="primaryDark">#5B3F36</color>
+
+    <!-- dimensions -->
+
+</resources>
